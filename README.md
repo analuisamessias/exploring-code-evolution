@@ -81,14 +81,17 @@ Seja criativo!
 
 Responda às questões abaixo diretamente neste arquivo `README.md` do seu fork:
 
-1. Repositório selecionado:
-   https://github.com/prettier/prettier
+### 1. Repositório selecionado:
 
-2. Gráfico selecionado:
-   ![img.png](image.png)
+https://github.com/prettier/prettier
 
-3. Explicação:
-   Escolhi o gráfico de "Declaração de variáveis" do projeto Prettier, que é uma ferramenta de formatação de código. É possível notar que as variáveis do tipo 'const' tiveram um aumento significativo ao longo do tempo (de 3.268 para 5.176), o que pode indicar indica uma forte preferência dos desenvolvedores do Prettier por declarar variáveis que não serão reatribuídas. Mesmo tendo uma redução de 2022 para 2023, o uso de 'const' ainda é muito predominante em comparação com 'let' e 'var'. Não foram encontradas justificativas na documentação do projeto para essa redução, mas pode ser resultado de refatorações ou mudanças na equipe de desenvolvimento.
-   A curva do 'var' permaneceu praticamente constante (de 2.213 para 2.281), com pequenas alterações. Enquanto a variável 'let' apresentou um pequeno crescimento (de 455 para 700), o que pode indicar que, quando uma variável precisa de reatribuição, os desenvolvedores estão escolhendo let ao invés de var.
+### 2. Gráfico selecionado:
+
+![img.png](image.png)
+
+### 3. Explicação:
+
+Escolhi o gráfico de "Declaração de variáveis" do projeto Prettier, que é uma ferramenta de formatação de código. É possível notar que as variáveis do tipo 'const' tiveram um aumento significativo ao longo do tempo (de 3.268 para 5.176), o que pode indicar indica uma forte preferência dos desenvolvedores do Prettier por declarar variáveis que não serão reatribuídas. Mesmo tendo uma redução de 2022 para 2023, o uso de 'const' ainda é muito predominante em comparação com 'let' e 'var'. Não foram encontradas justificativas na documentação do projeto para essa redução, mas pode ser resultado de refatorações ou mudanças na equipe de desenvolvimento.
+A curva do 'var' permaneceu praticamente constante (de 2.213 para 2.281), com pequenas alterações. Enquanto a variável 'let' apresentou um pequeno crescimento (de 455 para 700), o que pode indicar que, quando uma variável precisa de reatribuição, os desenvolvedores estão escolhendo let ao invés de var.
 
 Ou seja, a evolução das declarações de variáveis no Prettier demonstra que: com a evolução do código, seus desenvolvedores estão adotando boas práticas de programação, priorizando a consistência e o escopo adequado das variáveis. É como se o Prettier estivesse praticando aquilo que ele indica. Já que o uso de 'const' é indicado pela própria comunidade e a ferramenta. A quase estagnação de var é ótima: sinal de que o projeto evita escopo confuso e armadilhas de hoisting. O crescimento pequeno de let reforça que o time usa a ferramenta certa para o problema certo, evitando reatribuições desnecessárias.
